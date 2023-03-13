@@ -1,0 +1,426 @@
+@font-face {
+    font-family: Actor;
+    src: url(../fonts/Actor-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/in);
+}
+
+@font-face {
+font-family: AbhayaLibre;
+src: url(../fonts/AbhayaLibre-Medium.ttf);
+}
+
+@font-face {
+font-family: poppinslight;
+src: url(../fonts/Poppins-Light.ttf);
+}
+
+.bannertext{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400!important;
+    font-size: 48px!important;
+    color: #000000;
+}
+
+.bannerpara{
+    font-family: 'AbhayaLibre';
+    font-style: normal;
+    font-weight: 400!important;
+    font-size: 23px!important;
+    color: #000000!important;
+    text-shadow: none!important;
+}
+
+.btn-shop{
+    font-style: normal;
+    font-weight: 400!important;
+    font-family: 'AbhayaLibre';
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow:none;
+    text-shadow:none;
+    color: white;
+}
+
+.btn-ready{
+    font-style: normal;
+    font-weight: 400!important;
+    font-family: 'AbhayaLibre';
+    background-color: #9118f5;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow:none;
+    text-shadow:none;
+    color: white;
+}
+
+.btn-shop:hover{
+    font-style: normal;
+    font-weight: 400!important;
+    font-family: 'AbhayaLibre';
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow:none;
+    text-shadow:none;
+    color: white;
+}
+
+.btn-ready:hover{
+    font-style: normal;
+    font-weight: 400!important;
+    font-family: 'AbhayaLibre';
+    background-color: transparent;
+    border: 1px solid #9118f5;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow:none;
+    text-shadow:none;
+    color: #9118f5;
+}
+
+.btn-green{
+    font-style: normal;
+    font-weight: 400!important;
+    font-family: 'AbhayaLibre';
+    background-color: #9118f5;
+    box-shadow:none;
+    text-shadow:none;
+}
+
+.home-section{
+    background-image: url('../images/website/business-office-concept-smiling-business-team-working-with-tablet-pc-office-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #F7F9FF;
+    border-radius: 0px 0px 120px 0px;
+}
+
+.section-title{
+    font-family: 'Actor'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 38px!important;
+    color: #000000!important;
+    text-align: left;
+}
+
+.section-title-white{
+    font-family: 'Actor'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 38px!important;
+    color: #fff!important;
+    text-align: left;
+}
+
+.padding-80{
+    padding: 150px 0px 150px 0px;
+}
+
+.padding-30{
+    padding: 30px 0px 30px 0px;
+}
+
+.servicebtn {
+    position: absolute;
+    bottom: 0px;
+    right: 14px;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px 0px;
+    text-align: center;
+}
+
+.serviceicon{
+    transform: rotate(-45deg);
+    width: 20px!important;
+}
+
+.serviceHeading{
+    font-family: 'Actor'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+}
+
+.serviceContent{
+    font-family: 'poppinslight'!important;
+    font-style: normal!important;
+    font-size: 16px;
+}
+
+.bg-blue{
+    background-color: #386dff;
+    border-radius: 50px 0px 0px 0px;
+}
+
+.width-50{
+    width: 50px;
+}
+
+.detailshead{
+    font-family: 'Actor'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    color: #fff;
+}
+
+.detailsPara{
+    font-family: 'poppinslight'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    color: #fff!important;
+    font-size: 15px;
+}
+
+.detailsbtn {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .detailsbtn .text {
+    font-family: "AbhayaLibre";
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    transition: color 300ms;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+    z-index: 1;
+  }
+  
+  .detailsbtn .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    background-color: #fff;
+
+    z-index: 0;
+    transform: scaleY(0);
+    transform-origin: center bottom;
+    transition: transform 220ms ease-in;
+  }
+  
+  .detailsbtn:hover .bg {
+    transform: scale(1.15);
+  }
+  
+  .detailsbtn:hover .text {
+    color: #386dff;
+  }
+  
+.white{
+    font-family: 'Actor'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 38px!important;
+    color: #fff!important;
+    text-align: left;
+}
+
+.gradient{
+    background: linear-gradient(to right, #9118F5  0%, #386DFF 100%);
+    padding: 80px 50px;
+    border-radius: 30px;
+}
+
+.gradient1{
+    background: linear-gradient(to right, #9118F5  0%, #386DFF 100%);
+}
+
+.shopimg{
+    margin-top: -110px;
+}
+
+.bg-pink{
+    background-color: #9118F5;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.pd-50{
+    padding: 50px;
+    margin: auto;
+}
+.inflex{
+    display: flex;
+}
+
+.bgdetails{
+    background: url('../images/website/Group 7.png') left bottom no-repeat, url('../images/website/Group 6.png') right top no-repeat;
+    background-size: 200px;
+}
+
+.black{
+    font-family: 'Actor'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 38px!important;
+    color: #000000!important;
+    text-align: center;
+}
+
+.black-products{
+    font-family: 'AbhayaLibre'!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 38px!important;
+    color: #000000!important;
+    text-align: center;
+}
+
+.productmenu{
+    font-family: 'AbhayaLibre'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 22px!important;
+    color: #000000!important;
+    text-align: center;
+}
+
+.productmenu2{
+    font-family: 'AbhayaLibre'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 18px!important;
+    color: #000000!important;
+    text-align: center;
+}
+
+.productmenu1{
+    font-family: 'AbhayaLibre'!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-size: 16px!important;
+    color: #646464!important;
+    text-align: center;
+}
+
+.readyPara{
+    font-family: 'poppinslight'!important;
+    font-style: normal!important;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.subrow{
+    border-bottom: 1px solid #eee;display: flex;
+}
+
+.mgauto{
+    margin: auto;
+}
+
+.formselect{
+    width: 100%;padding: 10px 5px;border-radius: 10px;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400!important;
+    font-size: 23px;
+}
+
+.mgtop-10{
+    margin-top: 5px;
+}
+
+.pricing{
+    font-family: 'AbhayaLibre'!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 28px!important;
+    color: #386DFF!important;
+    text-align: center;
+}
+
+.pdimg{
+    width:100%;border-radius: 20px;border: 1px solid #eee;
+}
+
+.mggrey{
+    border-top: 5px solid #eee;
+    border-bottom: 5px solid #eee;
+}
+
+.offsmall {
+    font-family: "AbhayaLibre";
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .offBig {
+    font-family: "Actor";
+    font-size: 43px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.card1{
+    background-image: radial-gradient(#C278FF, #9118F5);
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card2{
+    background-image: radial-gradient(#7499FF, #386DFF);
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card3{
+    background-image: radial-gradient(#4633B6, #0F0161);
+    padding: 20px 0px 20px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.brand{
+    width:150px;
+    padding: 30px;
+}
+.brand1{
+    width:40px;
+}
+
+.brand2{
+    width:30px;
+}
+.bgcol{
+    padding: 40px;
+    border: 1px solid #eee;
+}
+
+.del{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
